@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/renault" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="220dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="36sp"
+        android:layout_marginTop="210sp"
+        android:layout_marginRight="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:text="Four Wheeler"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="180sp"
+        android:layout_marginTop="280dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bm" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="220dp"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="36sp"
+        android:layout_marginTop="470sp"
+        android:background="@drawable/background"
+        android:text="Two Wheeler"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

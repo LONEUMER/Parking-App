@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    tools:context=".RegistrationForm">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Registration Form"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/ettime"
+        android:layout_gravity="center"
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:background="@null"
+        android:focusable="false"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="353dp"
+        android:layout_height="49dp"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:maxLength="15"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="353dp"
+        android:layout_height="49dp"
+        android:layout_margin="15dp"
+        android:hint="Vehical No:"
+        android:maxLength="8"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="353dp"
+        android:layout_height="49dp"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Phone No:"
+        android:maxLength="10"
+        android:inputType="phone" />
+
+
+
+    <Spinner
+        android:id="@+id/spinerslot"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/background"
+        android:entries="@array/ParkingSpots"
+        android:prompt="@string/Spot_prompt"
+        android:spinnerMode="dialog"
+        android:textAlignment="center">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="110sp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:background="@null"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150sp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

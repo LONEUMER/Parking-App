@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "262126322054",
+    "firebase_url": "https://parkingbookingsystemapp-1e254.firebaseio.com",
+    "project_id": "parkingbookingsystemapp-1e254",
+    "storage_bucket": "parkingbookingsystemapp-1e254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262126322054:android:6301f1eb9d11aa37",
+        "android_client_info": {
+          "package_name": "com.example.parkingbookingsystemapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262126322054-jm32vj4e7ijd6uiqj8s8ef70ons90841.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkingbookingsystemapp",
+            "certificate_hash": "ba962ce6416abccadf4bf5cbac76a822288008c1"
+          }
+        },
+        {
+          "client_id": "262126322054-1j27u9pb0rpmkbgo11oi73ntt5c71fca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAusyYbWIx9aLnKGY0zc48q3IkhPFuGaag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262126322054-1j27u9pb0rpmkbgo11oi73ntt5c71fca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
